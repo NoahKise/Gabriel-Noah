@@ -3,14 +3,16 @@
     float: left;
     box-sizing: border-box;
     margin: 0 0 0 30px;
-    border: 10px;
-    border-color: yellowgreen;
     border: ridge 10px yellowgreen;
 }
 
 img {
 width: 100%;
 margin: left;
+}
+
+body {
+    background-image: url("../images/crazy-dog.gif");
 }
 
 h1{
@@ -35,4 +37,34 @@ background-color: aquamarine;
 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: bisque;
+}
+
+.intro{
+text-align: center;
+
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 1050px) {
+    .column {
+        width:89vw;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body{
+        background-color: black;
+    }
+    h1 {
+        color: white;
+    }
+    .intro {
+        color: white;
+    }
+    .column {
+        width: 89vw;
+        border: none
+
+    }
 }
