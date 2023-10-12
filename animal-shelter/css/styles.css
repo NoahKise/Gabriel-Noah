@@ -1,0 +1,38 @@
+.column {
+    width:47%;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 0 0 30px;
+    border: 10px;
+    border-color: yellowgreen;
+    border: ridge 10px yellowgreen;
+}
+
+img {
+width: 100%;
+margin: left;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+H3{
+    text-align: center;
+}
+
+.column p{
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: aquamarine;
+}
+
+.column h3{
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: bisque;
+}
