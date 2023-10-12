@@ -55,6 +55,7 @@ text-align: center;
 @media screen and (max-width: 680px) {
     body{
         background-color: black;
+        background-image: none;
     }
     h1 {
         color: white;

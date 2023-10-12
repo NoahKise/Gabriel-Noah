@@ -1,0 +1,25 @@
+img{
+    padding-top: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40%;
+}
+
+
+.logo{
+    padding-top: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+h1 {
+text-align: center;
+
+}
+
+p {
+    text-align: center;
+    }
